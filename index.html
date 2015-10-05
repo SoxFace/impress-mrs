@@ -1,49 +1,45 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Impress Tutorial</title>
+		<title>MRS Impress</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
-		<link href="styles.css" rel="stylesheet" />
+		<link href="css/styles.css" rel="stylesheet" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
 		<div id="impress">
+			<img src="human_body_silhouette.svg" alt="body">
 			<div class="no-support-message">
 				Your browser doesn't support impress.js.  Try Chrome or Safari.
 			</div>
+
+			<!-- 
+				
+				
+				
+				
+				DR Additional -->
 			
-			<div class="step" data-x="0" data-y="0">
-				This is my first slide.  I start at 0,0.  Welcome.
+			<div class="step" id="body" data-x="920" data-y="550" data-scale="4">
+				Welcome to Patient Positioning 101
 			</div>
 			
-			<div class="step" data-x="500" data-y="0">
-				This is slide 2.  It slides left 500 pixels.
-			</div>
-			
-			<div class="step" data-x="500" data-y="-400">
-				This is slide 3.  It slides down 400 pixels.
-			</div>
-			
-			<div class="step" data-x="500" data-y="-800" data-scale="0.5">
-				This is slide 4.  It scales everything up by a factor of 2.
-			</div>
-			
-			<div class="step" data-x="0" data-y="-800" data-rotate="90">
-				This is slide 5 and it rotates in.
-			</div>
-			
-			<div class="step" data-x="-100" data-y="-800" data-rotate-x="60" data-rotate-y="60" data-rotate-z="30">
-				This is slide 6 and it has a 3D transition.
-			</div>
-			
-			<div class="step" data-x="-2600" data-y="-800" data-rotate-x="30" data-rotate-y="-60" data-rotate-z="90" data-scale="4">
-				This is slide 7 and it has a 3D transition AND a scale.
-			</div>
+			<div class="step" id="upper_limb" data-x="1000" data-y="300" data-scale=".5">Upper Limb</div>
+
+			<div class="step" id="spine" data-x="800" data-y="500" data-scale=".5">Spinal</div>
+
+			<div class="step" id="hip" data-x="900" data-y="700" data-scale=".3">Hip</div>
+
+			<div class="step" id="lower_limb" data-x="1350" data-y="600" data-scale=".5">Lower Limb</div>
+
+			<div class="step" id="chest" data-x="600" data-y="500" data-scale=".3">Chest</div>
+
+			<div class="step" id="shoulder" data-x="500" data-y="350" data-scale=".3">Shoulder</div>
+
+			<div class="step" id="additional" data-x="300" data-y="550" data-scale=".5">Additional</div>
 			
 		</div>
-		<script type="text/javascript" src="impress.js"></script>
-		<!--
-			call `impress().init()` function to initialize impress.js presentation.
-		-->
+		<script type="text/javascript" src="js/impress.js"></script>
 		<script>impress().init();</script>
 	</body>
 </html>
