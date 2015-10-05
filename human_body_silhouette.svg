@@ -143,8 +143,10 @@
 			808.988,1077.614 915.965,1077.614 969.453,1170.258 915.965,1262.902 	"/>
 	</g>
 	<g id="additional">
+
 		<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="-341.012,1175.902 -394.5,1083.258 
 			-341.012,990.614 -234.035,990.614 -180.547,1083.258 -234.035,1175.902 	"/>
+			<circle cx="500" cy="500" r="40" stroke="black" stroke-width="3" fill="red" />
 	</g>
 	<g id="chest">
 		<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="48.988,1168.902 -4.5,1076.258 
