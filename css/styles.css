@@ -1,0 +1,46 @@
+.no-support-message { display:none; 
+}
+.impress-not-supported .no-support-message { display:block; 
+}
+
+/* additional styles just to make things look a bit nicer */
+body { 
+  background:#EBEBEB; 
+  font:16px/24px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color:#333; }
+
+.step { 
+  width:940px; 
+  margin:0 auto 24px auto; 
+  text-align:center; 
+}
+
+nav a {
+  color: white;
+}
+
+nav {
+    position: fixed;
+    background: black;
+    color: white;
+    padding: 10px;
+    width: 130px;
+    z-index: 100;
+}
+
+nav ul {
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+nav li a {
+    width: 20%;
+    text-align: left;
+    text-decoration: none;
+}
+
+nav p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
