@@ -126,33 +126,35 @@
 			C1258.201,287.604,1261.408,299.063,1258.85,304.767z"/>
 	</g>
 
-	<g id="shoulder">
-		<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="-41.012,969.902 -94.5,877.258 
-			-41.012,784.614 65.965,784.614 119.453,877.258 65.965,969.902 	"/>
-	</g>
-	<g id="hip">
-		<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="349.988,1339.902 296.5,1247.258 
-			349.988,1154.613 456.965,1154.613 510.453,1247.258 456.965,1339.902 	"/>
-	</g>
-	<g id="spine">
-		<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="268.988,1139.902 215.5,1047.258 
-			268.988,954.614 375.965,954.614 429.453,1047.258 375.965,1139.902 	"/>
-	</g>
-	<g id="lower_x5F_limb">
-		<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="808.988,1262.902 755.5,1170.258 
-			808.988,1077.614 915.965,1077.614 969.453,1170.258 915.965,1262.902 	"/>
-	</g>
-	<g id="additional">
-		<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="-341.012,1175.902 -394.5,1083.258 
-			-341.012,990.614 -234.035,990.614 -180.547,1083.258 -234.035,1175.902 	"/>
-	</g>
-	<g id="chest">
-		<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="48.988,1168.902 -4.5,1076.258 
-			48.988,983.614 155.965,983.614 209.453,1076.258 155.965,1168.902 	"/>
-	</g>
-	<g id="upper_x5F_limb">
-		<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="518.988,877.902 465.5,785.258 
-			518.988,692.614 625.965,692.614 679.453,785.258 625.965,877.902"/>	
+	<g id="polygons">
+		<g id="shoulder">
+			<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="-41.012,969.902 -94.5,877.258 
+				-41.012,784.614 65.965,784.614 119.453,877.258 65.965,969.902 	"/>
+		</g>
+		<g id="hip">
+			<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="349.988,1339.902 296.5,1247.258 
+				349.988,1154.613 456.965,1154.613 510.453,1247.258 456.965,1339.902 	"/>
+		</g>
+		<g id="spine">
+			<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="268.988,1139.902 215.5,1047.258 
+				268.988,954.614 375.965,954.614 429.453,1047.258 375.965,1139.902 	"/>
+		</g>
+		<g id="lower_x5F_limb">
+			<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="808.988,1262.902 755.5,1170.258 
+				808.988,1077.614 915.965,1077.614 969.453,1170.258 915.965,1262.902 	"/>
+		</g>
+		<g id="additional">
+			<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="-341.012,1175.902 -394.5,1083.258 
+				-341.012,990.614 -234.035,990.614 -180.547,1083.258 -234.035,1175.902 	"/>
+		</g>
+		<g id="chest">
+			<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="48.988,1168.902 -4.5,1076.258 
+				48.988,983.614 155.965,983.614 209.453,1076.258 155.965,1168.902 	"/>
+		</g>
+		<g id="upper_x5F_limb">
+			<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="518.988,877.902 465.5,785.258 
+				518.988,692.614 625.965,692.614 679.453,785.258 625.965,877.902"/>	
+		</g>
 	</g>
 </g>
 </svg>

@@ -4,9 +4,24 @@
 		<title>MRS Impress</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
 		<link href="css/styles.css" rel="stylesheet" />
+		<link href="css/svg.css" rel="stylesheet" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
+
 	<body>
+
+		<nav>
+		<ul>
+			<li><a href="#/body">Body</a></li>
+			<li><a href="#/lower_limb">Hip</a></li>
+			<li><a href="#/upper_limb">Upper Limb</a></li>
+			<li><a href="#/lower_limb">Lower Limb</a></li>
+			<li><a href="#/chest">Chest</a></li>
+			<li><a href="#/spine">Spine</a></li>
+			<li><a href="#/hip">Hip</a></li>
+			<li><a href="#/additional">DR Additional</a></li>
+		</ul>
+		</nav>
 
 		<div id="impress">
 			
@@ -18,6 +33,8 @@
 			</div>
 			
 			<div class="step" id="upper_limb" data-x="1000" data-y="300" data-scale=".5">Upper Limb</div>
+
+			<!-- Upper Limb Submenu -->
 
 				<div class="step" id="thumb" data-x="1010" data-y="190" data-scale=".1">Thumb</div>
 
@@ -37,8 +54,8 @@
 
 			<div class="step" id="additional" data-x="300" data-y="550" data-scale=".5">Additional</div>
 
-			<img src="human_body_silhouette.svg" alt="">
-	
+			<img src="human_body_silhouette.svg" class="human_body" alt="">
+		
 		</div>
 		<script type="text/javascript" src="js/impress.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
