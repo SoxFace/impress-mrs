@@ -151,9 +151,8 @@
 			48.988,983.614 155.965,983.614 209.453,1076.258 155.965,1168.902 	"/>
 	</g>
 	<g id="upper_x5F_limb">
-		<circle cx="900" cy="300" r="100" stroke="black" stroke-width="3" fill="red"/>
-		<!-- <polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="518.988,877.902 465.5,785.258 
-			518.988,692.614 625.965,692.614 679.453,785.258 625.965,877.902"/> -->
+		<polygon fill="none" stroke="#3672A3" stroke-width="2" stroke-miterlimit="10" points="518.988,877.902 465.5,785.258 
+			518.988,692.614 625.965,692.614 679.453,785.258 625.965,877.902"/>
 	</g>
 </g>
 </svg>
